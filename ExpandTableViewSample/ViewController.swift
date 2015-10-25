@@ -50,7 +50,7 @@ class ViewController: UITableViewController {
         }
         let extended = self.sections[cell.section].extended
         self.sections[cell.section].extended = !extended
-        tableView.reloadData()
+        tableView.reloadSections(NSIndexSet(index: cell.section), withRowAnimation: .None)
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
