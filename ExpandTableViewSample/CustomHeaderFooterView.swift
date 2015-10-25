@@ -15,10 +15,10 @@ class CustomHeaderFooterView: UITableViewHeaderFooterView {
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
         self.arrow.translatesAutoresizingMaskIntoConstraints = false
-        self.addSubview(self.arrow)
-        self.addConstraints([
-            NSLayoutConstraint(item: arrow, attribute: .Trailing, relatedBy: .Equal, toItem: self, attribute: .Trailing, multiplier: 1.0, constant: -8),
-            NSLayoutConstraint(item: arrow, attribute: .CenterY, relatedBy: .Equal, toItem: self, attribute: .CenterY, multiplier: 1.0, constant: 0)])
+        self.contentView.addSubview(self.arrow)
+        self.contentView.addConstraints([
+            NSLayoutConstraint(item: arrow, attribute: .Trailing, relatedBy: .Equal, toItem: self.contentView, attribute: .Trailing, multiplier: 1.0, constant: -8),
+            NSLayoutConstraint(item: arrow, attribute: .CenterY, relatedBy: .Equal, toItem: self.contentView, attribute: .CenterY, multiplier: 1.0, constant: 0)])
     }
     
     required init?(coder aDecoder: NSCoder) {

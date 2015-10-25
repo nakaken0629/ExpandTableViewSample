@@ -63,29 +63,7 @@ class ViewController: UITableViewController {
     private func getSectionsValue(){
         
         var details: [String]
-        details = []
-        details.append("details1")
-        sections.append((title: "SECTION1", details: details, extended: false)) // close
-        
-        details = []
-        details.append("details1")
-        details.append("details2")
-        sections.append((title: "SECTION2", details: details, extended: true)) // open
-        
-        details = []
-        details.append("details1")
-        details.append("details2")
-        details.append("details3")
-        sections.append((title: "SECTION3", details: details, extended: true)) // open
-        
-        details = []
-        details.append("details1")
-        details.append("details2")
-        details.append("details3")
-        details.append("details4")
-        sections.append((title: "SECTION4", details: details, extended: false)) // close
-        
-        for i in 5...20 {
+        for i in 1...10 {
             details = []
             details.append("details 1")
             details.append("details 2")
