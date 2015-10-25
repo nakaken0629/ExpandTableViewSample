@@ -14,6 +14,7 @@
 		BA0BF4E91BDCCEE80020BBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0BF4E71BDCCEE80020BBF5 /* LaunchScreen.storyboard */; };
 		BA0BF4F41BDCCEE90020BBF5 /* ExpandTableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0BF4F31BDCCEE90020BBF5 /* ExpandTableViewSampleTests.swift */; };
 		BA0BF4FF1BDCCEE90020BBF5 /* ExpandTableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0BF4FE1BDCCEE90020BBF5 /* ExpandTableViewSampleUITests.swift */; };
+		BA0BF50D1BDCEE470020BBF5 /* CustomHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0BF50C1BDCEE470020BBF5 /* CustomHeaderFooterView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA0BF4FA1BDCCEE90020BBF5 /* ExpandTableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandTableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0BF4FE1BDCCEE90020BBF5 /* ExpandTableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandTableViewSampleUITests.swift; sourceTree = "<group>"; };
 		BA0BF5001BDCCEE90020BBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0BF50C1BDCEE470020BBF5 /* CustomHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BA0BF4DE1BDCCEE80020BBF5 /* AppDelegate.swift */,
 				BA0BF4E01BDCCEE80020BBF5 /* ViewController.swift */,
+				BA0BF50C1BDCEE470020BBF5 /* CustomHeaderFooterView.swift */,
 				BA0BF4E21BDCCEE80020BBF5 /* Main.storyboard */,
 				BA0BF4E51BDCCEE80020BBF5 /* Assets.xcassets */,
 				BA0BF4E71BDCCEE80020BBF5 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0BF50D1BDCEE470020BBF5 /* CustomHeaderFooterView.swift in Sources */,
 				BA0BF4E11BDCCEE80020BBF5 /* ViewController.swift in Sources */,
 				BA0BF4DF1BDCCEE80020BBF5 /* AppDelegate.swift in Sources */,
 			);
@@ -350,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
